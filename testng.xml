@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="All Test Suite">-->
+<suite parallel="tests" name="Suite">
+
+    <!--        <listeners>-->
+    <!--            <listener class-name="ecommerce.Listeners"/>-->
+    <!--        </listeners>-->
+
+
+    <test thread-count="5" name="Alert Page ">
+        <classes>
+            <class name="herokuApp.AlertPageTest"/>
+        </classes>
+    </test>
+
+
+<!--    <test thread-count="5" name="Log In Test">-->
+<!--        <classes>-->
+<!--            <class name="ecommerce.LogInApplication"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+</suite>
+
+
+

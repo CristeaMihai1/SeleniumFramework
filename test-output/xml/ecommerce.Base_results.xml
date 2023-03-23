@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TAS_Project"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.326">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tearDown"
+                time="0.326"
+                classname="ecommerce.Base">
+            </testcase>
+</testsuite>
